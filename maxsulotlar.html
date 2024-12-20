@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mahsulotlar</h1>
+    <a href="index.html">Asosiy Sahifaga Qaytish</a>
+    <hr>
+    <h2>Yangi Mahsulot Qo'shish</h2>
+    <form action="Server" method="get">
+        <label for="nom">Nomi:</label>
+        <input type="text" id="nom" placeholder="Nom yozing">
+        <label for="narx">Narxi:</label>
+        <input type="number" id="narx" placeholder="Narx yozing">
+        <br>
+        <br>
+        <label for="ky">Kategoriya:</label>
+        <input type="text" id="ky" placeholder="Vazifasini yozing">
+        <label for="miqdor">Ombor Miqdori:</label>
+        <input type="number" id="miqdor" placeholder="Miqdor kiriting">
+        <input type="submit" value="Qo'shish">
+    </form>
+    <h2>Mahsulot Ro'yhati</h2>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <th>#</th>
+            <th>Nomi</th>
+            <th>Narxi</th>
+            <th>Kategoriya</th>
+            <th>Ombor miqdori</th>
+            <th>Harakatlar</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Laptop</td>
+            <td>1500.00</td>
+            <td>Electronics</td>
+            <td>10</td>
+            <td>
+                <form action="Server" method="get">
+                    <input type="button" value="Tahrirlash">
+                    <input type="reset" value="O'chirirsh">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

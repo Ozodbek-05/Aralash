@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mijozlar</h1>
+    <a href="index.html">Asosiy Sahifaga Qaytish</a>
+    <hr>
+    <h2>Yangi Mijoz Qo'shish</h2>
+    <form action="Server" method="get">
+        <label for="ism">Ism:</label>
+        <input type="text" id="ism" placeholder="Ism kiriting">
+        <label for="fam">Familiya:</label>
+        <input type="text" id="fam" placeholder="Familiya kiriting">
+        <input type="submit" value="Qo'shish">
+        <br>
+    </form>
+    <h2>Mijozlar Ro'yhati</h2>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <th>#</th>
+            <th>Ism</th>
+            <th>Familiya</th>
+            <th>Harakatlar</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ali</td>
+            <td>Valiyev</td>
+            <td>
+                <form action="Server" method="get">
+                    <input type="button" value="Tahrirlash">
+                    <input type="reset" value="O'chirirsh">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

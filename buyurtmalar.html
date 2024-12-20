@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Buyurtmalar</h1>
+    <a href="index.html">Asosiy Sahifaga Qaytish</a>
+    <hr>
+    <h2>Yangi Buyurtma Qo'shish</h2>
+    <form action="Server" method="get">
+        <label for="mijoz">Mijoz ID</label>
+        <input type="text" id="mijoz">
+        <label for="maxsulot">Maxsulot ID</label>
+        <input type="text" id="maxsulot">
+        <br>
+        <br>
+        <label for="son">Soni</label>
+        <input type="text" id="son">
+        <input type="submit" value="Qo'shish">
+    </form>
+    <h2>Buyurtmalar Ro'yhat</h2>
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <th>#</th>
+            <th>Mijoz</th>
+            <th>Mahsulot</th>
+            <th>Soni</th>
+            <th>Harakatlar</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ali</td>
+            <td>Laptop</td>
+            <td>2</td>
+            <td>
+                <form action="Server" method="get">
+                    <input type="button" value="Tahrirlash">
+                    <input type="reset" value="O'chirirsh">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
